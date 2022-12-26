@@ -1,64 +1,69 @@
-<!DOCTYPE html> 
-<!-- Tells the browser that we are using html5 -->
+<!DOCTYPE html>
 <html lang="en">
-<!-- "Urmutter alle Element. Das Attribute lang definiert in welcher Sprache der Content sein wird. Z.B. wichtig für Reader" -->
-  
-	<head>
-  <!-- Everything between head is information and will not be displayed to the user but will help the browser to render the page-->
-		<meta charset="UTF-8">
-		<title> My Website</title>
-    <!-- Title will be shown in the tab -->
-	<head>
-	
-	<body>
-  <!-- In Body all the content of the Homepage is displayed-->
-        <table cellspacing="20">
-            <tr>
-                <td>
-                    <img src="blume.png" alt="Blume" width="100">
-                </td>
-                <td>
-                    <a href="https://www.plantopedia.de/blumenarten-mit-bild/">Hier</a> findest Du noch mehr schöne Blumen.
-                </td>
-            </tr>
-        </table>
-       
-        <hr size="3" noshade>
+<head>
+    <meta charset="UTF-8">
+    <title>Sabine</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="">
+        <h1>I'm Sabine</h1>
+        <h2>a  Product Owner</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="">
+        <img src="images/mountain.png" alt="">
+    </div>
 
-       
-	    <h1>Hello World !</h1>
+    <div class="middle-container">
+        <div class="profile">
+          <img class="itsme-image" src="images/itsme.png" width="15%" alt="">
+          <h2>Hello.</h2>
+          <p class="hello">I love to be responsible for prioritizing and determining the functionality and requirements of a product, 
+            and love ❤ working with a diverse, international team to ensure its success.</p>
+        </div>
+        <hr>
 
-        <a href="hobbies.html">Meine Hobbies</a>
-        <br>
 
-        <hr size="3" noshade>
-
-        <p>Now I will start with a table.</p>
-            <table>
-                <tr></tr>
-                    <td>Micky</td>
-                    <td><img src="micky.png" alt="Micky" width="100"></td>
-                <tr></tr>
-                    <td>Lilo</td>
-                    <td><img src="lilo.png" alt="Lilo" width="100"></td>
-            </table>
+        <div class="skills">
+          <p><h2>My Skills.</h2></p>
+          <div class="skill-row">
+            <img class="manager-image" src="images/manager-modified.png"  alt="po">
+            <h3>Prioritization, communication, management.</h3>
+            <p>As a Product Owner I am responsible for prioritizing and determining the functionality and 
+                requirements of a product, working closely with the development team to ensure that the
+                 product is successfully developed and deployed. I love also to be responsible for 
+                 communicating with stakeholders and managing and monitoring the product backlog.</p>
+            <img class="lectureship-image" src="images/books.png" alt="">
+            <h3>Lectureship</h3>
+            <p> I am teaching artificial intelligence and datascience topics at the DHBW (Duale Hochschule Baden-Württemberg).</p>
+            <img class="cycling-image" src="images/cycling.png" alt="">
+            <h3>Cycling</h3>
+            <p> Bike touring is the greatest for me. New cultures, nature, on the move and always expecting the unexpected ...</p>  
         
-        <hr size="3" noshade>
+        </div>
+        </div>
 
 
-        Jetzt kommen ein paar Emojies.
-        <br>
-        💖🥰😶🎑🚋💝💦💨
 
-        <hr size="3" noshade>
-        
-        Und jetzt noch ein Formular.
-
-        <form class="" action="index.html" method="post">
-            <label>Dein Name:</label>
-            <input type="text" name="" value="">
-            <input type="submit" name="">
-        </form>
-
-    </body>
-    </html>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>If you love cycling as much as I do.</h3>
+          <p class="hello">Let's cycle together, we can chat about IT products and how to best plan, prioritize and 
+            communicate professionally. Or are you more interested in artificial intelligence and teaching jobs? Or we just enjoy cycling. </p>
+          <a class="btn" href="mailto:sabinegillner@googlemail.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/sabine-gillner/">LinkedIn</a>
+        <p class="sabine" >© Dr. Sabine Gillner.</p>
+      </div>
+      
+</body>
+</html>
